@@ -216,7 +216,7 @@ void prune()
 void scan_D()
 {
 	ifstream fin;
-	fin.open("my_inp.txt");
+	fin.open("input.txt");
 	if(!fin)
 		{
 			cout<<"Input file opening error\n";
