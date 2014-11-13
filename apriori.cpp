@@ -75,9 +75,17 @@ int main(int argc, char const *argv[])
 
 void C1()
 {
+	ifstream fin;
+	fin.open("input.txt");
+	if(!fin)
+		{
+			cout<<"Input file opening error\n";
+			exit(0);
+		}
+
 	int n;
 	VI v;
-	while(cin>>n)
+	while(fin>>n)
 	{
 		v.clear();
 		if (n==-1)
@@ -90,6 +98,7 @@ void C1()
 		else
 			C[v]=1;
 	}
+	fin.close();
 }
 
 void output(structure T)
