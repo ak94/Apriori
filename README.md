@@ -16,8 +16,9 @@ run using following command:
   (For Windows)
   apriori.exe > output.txt
   
-  About input dataset
-  ===================
-  each line represent a transaction , and each number represent a item.
-  -1 is used to terminate the particular transaction.
+  
+About input dataset
+===================
+each line represent a transaction , and each number represent a item.
+-1 is used to terminate the particular transaction.
   
